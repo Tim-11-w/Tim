@@ -210,7 +210,7 @@ with col2:
                 st.download_button(
                     label="下载视频",
                     data=video_bytes,
-                    file_name=f"apple_text_animation_{text_input}.mp4",
+                    file_name=f"text_animation_{text_input}.mp4",
                     mime="video/mp4"
                 )
                 
